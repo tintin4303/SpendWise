@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  padding: 10px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dropdown-label {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.category-dropdown {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: #333;
+  min-width: 180px;
+}
