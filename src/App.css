@@ -11,7 +11,7 @@ body {
 
 .app-container {
   display: flex;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .nav-container {
@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  position: fixed;
 }
 
 .main-content {
